@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="shortcut icon" href="../images.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock , Paper and Scissors</h1>
+        <div class="content">
+            
+            <p>Rock : &#128074;</p>
+            <p>Paper : &#x270B;</p>
+            <p>Scissor : &#x270c;</p>
+        </div>
+        <div class="players">
+            <div class="player1">
+                <p class="tec">Player 1</p>
+                <div class="contented">
+                    
+                    <p>Choosen Move:<span class="move1"><span></p>
+                </div>
+                
+                 <div class="p1">
+                    <p>Choose Your moves:</p>
+                    <button id="rock1" class="hey" onclick="show_label1()">&#128074;</button>
+                    <button id="paper1" class="hey" onclick="show_label1()">&#x270B;</button>
+                    <button id="scissor1" class="hey" onclick="show_label1()">&#x270c;</button>
+                </div>
+                <div class="label1">
+                    
+                    <label class="Ready">Ready
+                        <input type="checkbox" name="Ready" id="ready">
+                    </label>
+                </div>
+                </div>
+            <div class="player2">
+                <p class="tec">Player 2</p>
+                <div class="contented">
+                    
+                    <p>Choosen Move:<span class="move2"><span></p>
+                </div>
+                
+                 <div class="p2">
+                    <p>Choose Your moves:</p>
+                    <button id="rock2" class="hey" onclick="show_label2()">&#128074;</button>
+                    <button id="paper2" class="hey" onclick="show_label2()">&#x270B;</button>
+                    <button id="scissor2" class="hey" onclick="show_label2()">&#x270c;</button>
+                </div>
+                <div class="label2">
+                    <label class="Ready">Ready
+                        <input type="checkbox" name="Ready" id="Ready">
+                    </label>
+                </div>
+                </div>
+                
+                
+        </div>
+        
+        
+        
+        <div class="result">
+            <button id="show_result" class="resu" onclick="hide_button()">Show Result</button>
+                <span class="result" id="result"></span>
+        </div>
+        <a href="../index.html"><button>Back To Home</button></a>
+    </div>
+    <script src="index2.js"></script>
+</body>
+</html>

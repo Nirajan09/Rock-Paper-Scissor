@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #0E103D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width:450px;
+    width:100%;
+    padding:2rem 2rem;
+    background-color: #20A4F3;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+h1{
+    white-space: wrap;
+}
+.content{
+    display: flex;
+    gap:3rem;
+    margin:2rem 0;
+}
+p{
+    font-size: 20px;
+}
+.moves{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-bottom:1rem;
+    width:95%;
+    padding:1rem 0;
+}
+.moves p{
+    display: flex;
+    justify-content: left;
+}
+.button_el{
+    background-color: #8CD867;
+    padding:1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+button{
+    cursor: pointer;
+    padding:1rem 2rem;
+    margin:0.5rem;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+    font-size: 1.05rem;
+}
+button:hover{
+    background-color: #FFFBFF;
+}
+@media screen and (max-width:448px){
+    button{
+        padding:0.5rem 1rem;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .content{
+        display: flex;
+        gap:1rem;
+    }
+    
+}
+@media screen and (max-width:369px){
+    h1{
+        font-size: 20px;
+    }
+    .content{
+        display: flex;
+        gap:0.5rem;
+    }
+}
+@media screen and (max-width:357px){
+    .content p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:305px){
+    button{
+        padding:0.5rem 0.7rem;
+    }
+}
+@media screen and (max-width:296px){
+    h1{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:280px){
+    .button_el p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:278px){
+    .button_el{
+        padding:0.5rem;
+    }
+}
+@media screen and (max-width:264px){
+    h1{
+        font-size: 15px;
+    }
+    
+    .button_el{
+        padding:0.3rem;
+    }
+}
